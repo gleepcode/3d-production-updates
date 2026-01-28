@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>About - My Docs</title>
+    <title>Journal one - 3D production studio website</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "About";
-        var mkdocs_page_input_path = "about.md";
+        var mkdocs_page_name = "Journal one";
+        var mkdocs_page_input_path = "journalOne.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -30,7 +30,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> My Docs
+          <a href=".." class="icon icon-home"> 3D production studio website
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -44,7 +44,23 @@
                 </li>
               </ul>
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">About</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Journal one</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#duck-model-edits">Duck model edits</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#autorigging-research">Autorigging research</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#journal-website">Journal website</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../journalTwo.md">Journal two</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../journalThree.md">Journal three</a>
                 </li>
               </ul>
       </div>
@@ -54,14 +70,14 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">My Docs</a>
+          <a href="..">3D production studio website</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">About</li>
+      <li class="breadcrumb-item active">Journal one</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -70,7 +86,33 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <p>Hello! Here is where I'll be sharing my progress journals.</p>
+                <h1 id="journal-one">Journal one</h1>
+<p><em>Jan 12 2026 to Jan 26 2026</em></p>
+<h2 id="duck-model-edits">Duck model edits</h2>
+<p>I made changes to my duck model in preparation to begin rigging it.</p>
+<ul>
+<li>Started by modifying the mouth loops to fix some smoothing issues, and to hopefully make it deform better. This took a while, topology can be tough to organize nicely.</li>
+</ul>
+<p><img alt="" src="../img/mouthTopoFix.png" width="60%" /></p>
+<ul>
+<li>Edited the eye loops, making the top and bottom vert counts the same (Yvonne's suggestion). I wanted to make sure a full blink was possible with the character's oval shaped eyes, so I created a test blend shape and it worked well.</li>
+</ul>
+<p><img alt="" src="../img/blinkTest.gif" width="60%" /></p>
+<ul>
+<li>Angled the legs to be more straight forward.</li>
+<li>Added a lattice for the eyes, the base eye mesh is now a perfect circle.</li>
+</ul>
+<h2 id="autorigging-research">Autorigging research</h2>
+<p>I didn't know anything really about the "modular" type of process that you can create for your rigs, so reading up on that was cool. Any way to avoid working destructively, or repeating myself a lot is warmly welcomed.</p>
+<p>I poked around the official documentation and quick start guides, and found the mGear youtube channel. I've been watching along and taking some notes on the <a href="https://youtube.com/playlist?list=PL9LaIDCCDjfij3RTU4wacKvqmKMuSFTK2&amp;si=Xa8KF-si9fsRYoBB">mGear Basics: Introduction to Shifter Modular Rigging System</a> playlist.</p>
+<h2 id="journal-website">Journal website</h2>
+<p>I played with Blogger initially, but I've really gotten into using Markdown to keep notes. I wanted an easy way to turn a collection of .md files into a website, and luckily the actual documentation website for mGear led me in the right direction.</p>
+<p>It uses a site generator called <a href="https://www.mkdocs.org/">MkDocs</a> that I figured I'd try using.</p>
+<p>It required:
+- Working in the command line (bash)
+- Working with Git, and GitHub Pages to host my website
+- Creating a Python venv (virtual environment) and installing packages into it</p>
+<p>Some of that was new, and fun to learn a bit about. It's not really related to the main project, I know, but I'll mention it here since it's something I did.</p>
               
             </div>
           </div><footer>
