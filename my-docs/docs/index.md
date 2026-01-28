@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site is where I'll be hosting my journal updates!
 
-## Commands
+## Journals
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[Journal one](journalOne.md)
 
-## Project layout
+## Links
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Trello](https://trello.com/invite/b/696596cf29621a517030139b/ATTI0f6d39630a9bc84f2889c880007b1f3aE8CD2084/leif-e-3d-production-studio-2)
