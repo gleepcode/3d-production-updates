@@ -30,6 +30,7 @@ I played with Blogger initially, but I've really gotten into using Markdown to k
 It uses a site generator called [MkDocs](https://www.mkdocs.org/) that I figured I'd try using.
 
 It required:
+
 - Working in the command line (bash)
 - Working with Git, and GitHub Pages to host my website
 - Creating a Python venv (virtual environment) and installing packages into it
