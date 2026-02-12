@@ -8,11 +8,11 @@ I made changes to my duck model in preparation to begin rigging it.
 
 - Started by modifying the mouth loops to fix some smoothing issues, and to hopefully make it deform better. This took a while, topology can be tough to organize nicely.
 
-![](img/mouthTopoFix.png){ width=60% }
+![](img/journal-1/mouthTopoFix.png){ width=60% }
 
 - Edited the eye loops, making the top and bottom vert counts the same (Yvonne's suggestion). I wanted to make sure a full blink was possible with the character's oval shaped eyes, so I created a test blend shape and it worked well.
 
-![](img/blinkTest.gif){ width=60% }
+![](img/journal-1/blinkTest.gif){ width=60% }
 
 - Angled the legs to be more straight forward.
 - Added a lattice for the eyes, the base eye mesh is now a perfect circle.
