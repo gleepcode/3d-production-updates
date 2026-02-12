@@ -5,7 +5,9 @@ This site is where I'll be hosting my journal updates!
 ## Journals
 
 [Journal one](journalOne.md)
+
 [Journal two](journalTwo.md)
+
 [Journal three](journalThree.md)
 
 ## Links

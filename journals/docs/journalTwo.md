@@ -8,7 +8,7 @@ From Jan 29 to Feb 08, a lot of my focus was turned towards the Bigmode game jam
 
 ## mGear basics playlist
 
-I finished taking notes on [this playlist](https://youtube.com/playlist?list=PL9LaIDCCDjfij3RTU4wacKvqmKMuSFTK2&si=ZyV6frMoo8Yu7i4j) from the mGear channel.It covered a beginner's guide to using guides and building your rig with their Shifter modular rigging tool.
+I finished taking notes on [this playlist](https://youtube.com/playlist?list=PL9LaIDCCDjfij3RTU4wacKvqmKMuSFTK2&si=ZyV6frMoo8Yu7i4j) from the mGear channel. It covered a beginner's guide to using guides and building your rig with their Shifter modular rigging tool.
 
 There's a [basics 2 playlist](https://youtube.com/playlist?list=PL9LaIDCCDjfigP84eeMQ1PWSYtGsHgV2G&si=Ls-TX4Z4MZ3igYBG) that I'll likely check out.
 
