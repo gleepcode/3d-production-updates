@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Journal three - 3D production studio website</title>
+    <title>Journal four - 3D production studio website</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Journal three";
-        var mkdocs_page_input_path = "journalThree.md";
+        var mkdocs_page_name = "Journal four";
+        var mkdocs_page_input_path = "journalFour.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -51,14 +51,8 @@
                 <li class="toctree-l1"><a class="reference internal" href="../journalTwo/">Journal two</a>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">Journal three</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#skinning">Skinning</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#whats-next">What's next?</a>
-    </li>
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../journalThree/">Journal three</a>
                 </li>
               </ul>
       </div>
@@ -75,7 +69,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Journal three</li>
+      <li class="breadcrumb-item active">Journal four</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -84,39 +78,31 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="journal-three">Journal three</h1>
-<p><em>Feb 12 2026 to Mar 05 2026</em></p>
-<p><img alt="" src="../img/journal-3/poses.png" width="60%" /></p>
-<p>What I've done:</p>
+                <h1 id="journal-four">Journal four</h1>
+<p><em>Mar 05 2026 to Mar 26 2026</em></p>
+<h2 id="what-ive-done">What I've done</h2>
 <ul>
-<li>A lot of looking into more advanced mGear topics (custom scripts, data-centric rigging, etc.)<ul>
-<li>I've decided to limit the complexity and not hold myself to a standard of having <em>everything</em> seperate and building it at the end (though I would like to learn that).</li>
+<li>Modeled eyebrows with a bit of depth, rather than just being a flat plane</li>
+<li>Fixed the eye lattice (again)</li>
+<li>All clothing is now skinned properly</li>
+<li>Created a blink blendshape<ul>
+<li>Blendshapes are on a seperate proxy mesh, being copied to the main duck</li>
 </ul>
 </li>
-<li>Adjusted all of my control sizes</li>
-<li>Fixed my model by adding a few more loops around the finger joints<ul>
-<li>Using ngSkinTools I was able to export my layers, then import them back in on the edited mesh, and everything worked mostly perfectly :D</li>
 </ul>
-</li>
-<li>Learned about deformation order to make my lattice eyes work</li>
-</ul>
-<h2 id="skinning">Skinning</h2>
-<p>Initially I followed <a href="https://youtu.be/rBL5Ou9MRcI?list=PL9LaIDCCDjfimQVcMdh0rG0MPabPG9FK-">this mGear video guide</a>  to get my weights in but I found it got a bit hard to refine, and I was curious to learn more about ngSkinTools.</p>
-<p>Using the concepts from <a href="https://youtu.be/xAi6cSyAV9M">this video</a> I set up the skinning again using layers, and I found the process a lot more enjoyable!</p>
-<p><img alt="" src="../img/journal-3/layers.png" width="60%" /></p>
-<h2 id="whats-next">What's next?</h2>
+<h2 id="clothing">Clothing</h2>
+<p>The vest pretty easy, I was able to copy the skin layers from the body and they worked right away. Same with the band part of the bowtie, it stretches with the neck just fine with copied weights.</p>
+<p>I used rivets for the buttons and the bow, so they follow along with everything without needing joints.</p>
+<p><img alt="" src="../img/journal-4/clothing.png" width="60%" /></p>
+<p>You can see the new brows there as well.</p>
+<h2 id="whats-next">Whats next?</h2>
 <ul>
-<li>Blendshapes</li>
-<li>Add weights to clothes, experiement with how to rig the pieces</li>
-<li>Eyebrow joints</li>
+<li>Set up eyebrow joints</li>
 <li>Expression controls</li>
 </ul>
               
             </div>
           </div><footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../journalTwo/" class="btn btn-neutral float-left" title="Journal two"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-    </div>
 
   <hr/>
 
@@ -137,8 +123,6 @@
   <div class="rst-versions" role="note" aria-label="Versions">
   <span class="rst-current-version" data-toggle="rst-current-version">
     
-    
-      <span><a href="../journalTwo/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
   </span>
