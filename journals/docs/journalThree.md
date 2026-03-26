@@ -1,6 +1,6 @@
 # Journal three
 
-*Feb 12 2026 to March 05 2026*
+*Feb 12 2026 to Mar 05 2026*
 
 ![](img/journal-3/poses.png){ width=60% }
 
