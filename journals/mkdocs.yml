@@ -5,6 +5,7 @@ nav:
   - Journal one: journalOne.md
   - Journal two: journalTwo.md
   - Journal three: journalThree.md
+  - Journal four: journalFour.md
 
 theme: readthedocs
 
